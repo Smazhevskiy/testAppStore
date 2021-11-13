@@ -1,11 +1,13 @@
 import React from 'react'
 import './App.css'
-import {Devices} from './pages/device/Devices'
+import {DevicesAppBar} from './pages/MenuAppBar'
+import {DevicesTable} from './pages/TableDevices/DevicesTable'
 
 function App() {
     return (
         <div className="App">
-            <Devices/>
+            <DevicesAppBar/>
+            <DevicesTable/>
         </div>
     )
 }
